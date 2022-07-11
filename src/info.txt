@@ -1,0 +1,13 @@
+In JSX for is written as htmlFor. And class is written as className.
+We can return only a single tag inside app.js file and so if want to return more than one tag make use of JSX fragment- <> and </> in the
+start and end.
+anything written inside {} is js in JSX. It is resolved that way, we dont need to put any '' inside the {} for that.
+Always terminate the tagging in JSX. 
+Babel compiles JSX to react calls.
+In Single page application HTLM, CSS and JS gets downloaded once and further calls in it can be done using API. Whereas a multi page application downloads
+HTML CSS and JS everytime new route is hit. And thus require more bandwidth.
+npm i or npm install will create node modules folder again, so while sharing the folder we can delete node modules folder as it can be reinstalled.
+'props' are properties in which we can pass the required info which we want to display.
+'state' belongs to a component.
+In function based component hooks are used to set state.
+with the help of 'React Routers' we can change the components without reloading the whole page.
